@@ -1,0 +1,16 @@
+{
+    "name": "helhum/upload-example",
+    "type": "typo3-cms-extension",
+    "description": "Example for handling file uploads via Extbase",
+    "homepage": "https://github.com/helhum/upload_example",
+    "license": ["GPL-2.0+"],
+    "version": "0.0.1",
+    "require": {
+        "typo3/cms-core": ">=6.2.4,<8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Helhum\\UploadExample\\": "Classes"
+        }
+    }
+}
